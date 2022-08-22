@@ -1,0 +1,84 @@
+body{
+	background-image:url(../image/gold_background_texture_69796_1920x1080.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:auto;
+	padding:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+}
+header{
+	width:100%;
+	position:absolute;	
+}
+.nav2 > li > a{
+	text-decoration:none;
+	color:#C30;
+}
+.nav2{
+	position:absolute;
+	display:none;
+	margin:0px;
+	padding:2px;
+	list-style:none;
+	background-color:#FFF;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	
+}
+.nav > li:hover >.nav2{
+	display:block;
+	text-decoration:none;
+}
+.nav2 > li> a:hover{
+	color:#CCF;
+}
+.nav{
+	background-color:#FFF;
+	color:#000;
+	list-style:none;
+	text-align:right;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	width:100%;
+	position:fixed;	
+	padding:15px 0 15px 0;
+	opacity:0.5;
+	filter: alpha(opacity=50);
+	top:0;
+	margin-top:0;
+	cursor:pointer;		
+}
+.nav > li {
+	display:inline-block;
+	padding-right:20px;
+	position:relative;	
+}
+.nav > li > a{
+	text-decoration:none;
+	color:#903;
+	
+}
+.nav > li> a:hover{
+	color:#CCF;
+}
+.logo{
+	background-color:#9CF;
+	width:200px;
+	height:60px;
+	position:fixed;
+	top:0;
+	margin-top:0;
+	
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+p{
+	background:#CCC;
+	color:#003;
+	margin-left:120px;
+	margin-right:120px;
+	font-family:Nyala;
+	padding:70px;
+	box-shadow:20px 0 20px 0;
+	border-radius:20px;
+	
+}
